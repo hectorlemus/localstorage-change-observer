@@ -1,0 +1,8 @@
+<form [formGroup]="form" (ngSubmit)="addMessage()">
+  <label for="fname">Ingresa el mesage</label>
+  <input type="text" id="fname" formControlName="message" autocomplete="off">
+</form>
+
+<div class="help">
+  <i>Enter para enviar</i>
+</div>

@@ -1,0 +1,23 @@
+input[type=text] {
+  width: 100%;
+  padding: 8px 20px;
+  box-sizing: border-box;
+  border: 3px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=text]:focus {
+  border: 3px solid #555;
+}
+
+label{
+  font-weight: bold;
+}
+
+.help {
+  text-align: right;
+}

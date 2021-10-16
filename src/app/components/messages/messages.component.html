@@ -1,0 +1,14 @@
+<div class="text-right">
+  <button class="button" (click)="deleteMessages()">
+    <span>Limpiar</span>
+  </button>
+</div>
+
+<h2>Mensajes</h2>
+
+<!-- Terminal -->
+<div class="terminal">
+  <div *ngFor="let message of messages; index as i" class="message">
+    <i>- {{ message }} </i>
+  </div>
+</div>
